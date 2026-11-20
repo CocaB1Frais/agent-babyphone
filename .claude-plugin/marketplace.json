@@ -1,0 +1,5 @@
+{
+  "name": "agent-babyphone",
+  "owner": { "name": "CocaB1Frais" },
+  "plugins": [{ "name": "agent-babyphone", "source": "./", "description": "Floating widget that watches your Claude Code agents and lets you approve their requests." }]
+}

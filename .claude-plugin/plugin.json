@@ -1,0 +1,10 @@
+{
+  "name": "agent-babyphone",
+  "version": "1.0.0",
+  "description": "A floating babyphone for your Claude Code agents: see what each one is doing, step by step, and approve permissions or answer questions without opening the chat.",
+  "author": { "name": "CocaB1Frais" },
+  "license": "MIT",
+  "homepage": "https://github.com/CocaB1Frais/agent-babyphone",
+  "repository": "https://github.com/CocaB1Frais/agent-babyphone",
+  "keywords": ["monitor", "widget", "agents", "permissions", "dashboard"]
+}

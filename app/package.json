@@ -1,0 +1,9 @@
+{
+  "name": "agent-babyphone-app",
+  "version": "1.0.0",
+  "description": "Floating widget that watches your Claude Code agents",
+  "main": "main.js",
+  "private": true,
+  "license": "MIT",
+  "dependencies": { "electron": "33.2.1" }
+}

@@ -1,0 +1,11 @@
+{
+  "modules": ["./register.tsx"],
+  "hooks": {
+    "PermissionRequest": [
+      { "hooks": [{ "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/permission-wait.js\"", "timeout": 120 }] }
+    ],
+    "PreToolUse": [
+      { "matcher": "AskUserQuestion", "hooks": [{ "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/permission-wait.js\"", "timeout": 120 }] }
+    ]
+  }
+}
